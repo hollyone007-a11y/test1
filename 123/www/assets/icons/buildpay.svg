@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BuildPay">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="52" x2="438" y2="458" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d4a3"/>
+      <stop offset="1" stop-color="#0b8f75"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="94" y1="70" x2="410" y2="410" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".28"/>
+      <stop offset=".55" stop-color="#ffffff" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#07090d"/>
+  <rect x="46" y="46" width="420" height="420" rx="92" fill="url(#bg)"/>
+  <path d="M130 162h124c49 0 84 27 84 70 0 29-16 51-42 62l74 56v48h-78l-68-58h-22v58h-72V162Zm72 61v58h45c13 0 23-3 31-8 8-6 12-14 12-24 0-17-14-26-42-26h-46Z" fill="#07120d"/>
+  <path d="M324 154h58v62h48v54h-48v128h-58V270h-42v-54h42v-62Z" fill="#07120d" opacity=".95"/>
+  <path d="M118 128h210c18 0 34 6 47 17" fill="none" stroke="#ecfff9" stroke-width="17" stroke-linecap="round" opacity=".82"/>
+  <path d="M64 108c26-34 62-52 106-52h176c58 0 104 46 104 104v176c0 44-18 80-52 106" fill="none" stroke="url(#shine)" stroke-width="18" stroke-linecap="round"/>
+</svg>

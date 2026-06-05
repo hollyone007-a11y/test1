@@ -1,0 +1,11 @@
+www/config/private.php
+.env
+.env.*
+ftp-meta.json
+mysql-meta.json
+deploy-result.json
+admin-login-status.json
+*.zip
+backups/
+node_modules/
+vendor/

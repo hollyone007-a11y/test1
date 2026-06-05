@@ -1,0 +1,39 @@
+{
+  "name": "BuildPay",
+  "short_name": "BuildPay",
+  "description": "Evidence prace, timeru, GPS, dokumentu a vyplat.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07090d",
+  "theme_color": "#07090d",
+  "icons": [
+    {
+      "src": "/assets/icons/buildpay-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/buildpay-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/buildpay.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start prace",
+      "short_name": "Start",
+      "url": "/?view=dashboard",
+      "icons": [{ "src": "/assets/icons/buildpay-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

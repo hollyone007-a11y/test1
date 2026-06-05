@@ -1,0 +1,150 @@
+[
+  {
+    "action": "https://admin.webzdarma.cz/php-mysql/",
+    "method": "post",
+    "text": "nové heslo povinné zopakovat nové heslo Uložit nastavení",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "password",
+        "name": "password",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "password",
+        "name": "passwordRepeat",
+        "value": ""
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "name": "_submit",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_token_",
+        "value": "egc7zywcdvrriZ/8L3ieciVVMaN3tQnUtB7C4="
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_do",
+        "value": "webadmin-mysql-formSettings-submit"
+      }
+    ]
+  },
+  {
+    "action": "https://admin.webzdarma.cz/php-mysql/",
+    "method": "post",
+    "text": "Skutečně chci smazat databázi včetně dat Smazat databázi",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "confirm",
+        "value": ""
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "name": "_submit",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_token_",
+        "value": "1d5v7eob0cp9AGYbgv6XBCCHutRgoQr6Mp+M4="
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_do",
+        "value": "webadmin-mysql-formDelete-submit"
+      }
+    ]
+  },
+  {
+    "action": "https://admin.webzdarma.cz/php-mysql/",
+    "method": "post",
+    "text": "7.4 8.0 8.1 8.2 8.3 8.4 Verze php Uložit",
+    "inputs": [
+      {
+        "tag": "select",
+        "type": "",
+        "name": "phpPoolId",
+        "value": ""
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "name": "_submit",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_token_",
+        "value": "9vkexeha0zjNaNZCEupfPc4eGlcbz1UWvxYMI="
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_do",
+        "value": "webadmin-php-formPhpSettings-submit"
+      }
+    ]
+  },
+  {
+    "action": "https://admin.webzdarma.cz/php-mysql/",
+    "method": "post",
+    "text": "Zobrazovat PHP chyby Logovat PHP chyby Zasílat informace o překročeni počtu odeslaných emailů z PHP Zasílat informace o překročení počtu povolených PHP procesů Uložit",
+    "inputs": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "display_errors",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "log_errors",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "phpmailerWarn",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "phpfpmWarn",
+        "value": ""
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "name": "_submit",
+        "value": ""
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_token_",
+        "value": "2o181ct47rwZITdKSX9Oub+0SFbw7G3pP+fM4="
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "_do",
+        "value": "webadmin-php-formPhpVariables-submit"
+      }
+    ]
+  }
+]
